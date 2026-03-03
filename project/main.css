@@ -47,8 +47,13 @@ body.welcome-page {
     width: 5rem;
     border-radius: 50%;
     object-fit: cover;
+    transition: transform 0.5s ease;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
 }
+.flag img:hover {
+    transform: scale(1.10);
+}
+
 
 /* Heading Section */
 .heading {
@@ -124,31 +129,22 @@ body.welcome-page {
 /* General Layout */
 .home-page {
     background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'sans-serif', Tahoma, Geneva, Verdana, serif;
     color: white;
 }
 
 /* Navigation */
-.home-details nav {
+.navigation1 {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 4rem;
+    padding: 0.8rem;
 }
-
-.flag-two {
-    width: 70px;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-}
-
-.flag-two:hover {
-    transform: scale(1.05);
-}
-
-.nav-links {
+.navigation1 .nav-links {
     display: flex;
-    gap: 2rem;
+    font-size: 1px;
+    gap: 1rem;
     list-style: none;
 }
 
