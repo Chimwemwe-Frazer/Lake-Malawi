@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body.welcome-page {
+    font-family: 'sans-serif', Tahoma, Geneva, Verdana;
+    background-image: url("../images/Welcome-background.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Container */
+.main-content {
+    text-align: center;
+    border-radius: 2rem;
+    background-color: rgba(128, 128, 128, 0.19);
+    /* background-color: rgb(156, 194, 252); */
+    color: whitesmoke;
+    max-width: 700px;
+    padding: 20px;
+    box-shadow: 4px 4px 10px rgb(0, 0, 0, 0.3);
+}
+
+/* Top Section */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgba(128, 128, 128, 0.4);
+    border-radius: 2rem;
+    padding: 0.8rem;
+}
+
+/* Flag Styling */
+.flag img {
+    width: 90px;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+/* Heading Section */
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  /* gap: 1px; */
+}
+.heading h1 {
+    font-size: 3rem;
+    opacity: 0.9;
+    letter-spacing: 2px;
+}
+
+.heading small {
+    margin-top: 1.2px;
+    font-size: 1.1rem;
+    opacity: 0.65;
+    
+}
+
+/* Content Paragraph */
+.content {
+    margin-top: 20px;
+}
+
+.content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 600px;
+    text-align: justify;
+    opacity: 0.85;
+}
+
+/* Button Styling */
+.btn {
+    margin: 20px 20px;
+    padding: 12px 30px;
+    font-size: 1rem;
+    background-color: rgb(37, 110, 245);
+    color: whitesmoke;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+/* Button Hover Effect */
+.btn:hover {
+    background-color: rgb(37, 110, 245);
+    transform: scale(1.10);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .heading h1 {
+        font-size: 2.2rem;
+    }
+
+    .content p {
+        font-size: 1rem;
+    }
+}
