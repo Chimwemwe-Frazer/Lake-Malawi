@@ -176,7 +176,7 @@ nav {
 }
 .nav-links a {
   position: relative;
-  color: rgb(192, 4, 4); 
+  color: green; 
   text-decoration: none;
   opacity: 0.9;
   align-items: center;
@@ -196,7 +196,7 @@ nav {
   width: 0;
   height: 2px;
   /* background-color: rgb(216, 15, 15); */
-  background-color: black;
+  background-color: red;
   transition: all 0.9s ease;
   transform: translateX(-50%);
 }
