@@ -1,44 +1,7 @@
 
 
 
-.nav-links a {
-  position: relative;
-  color: black; 
-  text-decoration: none;
-  opacity: 0.9;
-  align-items: center;
-  transition: color 0.7s ease;
 
-  font-size: 3.5rem;   
-  font-weight: 500;    
-  padding: 0.5rem 0;
-}
-
-/* Underline effect */
-.nav-links a::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  width: 0;
-  height: 7px;
-  background-color: rgb(216, 15, 15);
-  transition: all 0.9s ease;
-  transform: translateX(-50%);
-}
-
-.nav-links a:hover::after {
-  width: 100%; /* underline grows on hover */
-}
-
-/* Active (clicked) state */
-.nav-links a:visited {
-  color: green; /* text turns green */
-}
-
-.nav-links a.active::after {
-  width: 100%; /* underline stays visible */
-}
 
 /* .home-details h2{
   
@@ -59,28 +22,7 @@
 /* } */
 
  
-#back-to-the-top{
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  height: 6rem;
-  width: 6rem;
-  background-color: #0136a7;
-  color: #fff;
-  border: none;
-  padding: 12px 16px;
-  border-radius: 50%;
-  font-size: 50px;
-  cursor: pointer;
-  display: none;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-  transition: opacity 0.3s, transform 0.3s;
-} 
-#back-to-the-top:hover{
-  background-color: #02792f;
-  transform: scale(1.1);
 
-}
 .footer-container{
   display: flex;
   justify-content: space-between;
