@@ -26,10 +26,19 @@ const backToTopBtn = document.getElementById('back-to-the-top');
       ref = document.referrer.split("/").pop();
     }
   });
+const toggle = document.getElementById("menu-toggle");
+const navLinks = document.querySelector(".nav-links");
+const closeBtn = document.getElementById("close-btn");
 
+toggle.addEventListener("click", () => {
+  navLinks.classList.add("show");
+  toggle.style.display = "none";  // hide hamburger
+});
 
-
-
+closeBtn.addEventListener("click", () => {
+  navLinks.classList.remove("show");
+  toggle.style.display = "block"; // bring hamburger back
+});
 
 // const links = document.querySelectorAll(".nav-link");
 
