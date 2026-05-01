@@ -87,7 +87,7 @@ body.welcome-page {
   }
   .main-content {
     max-width: 98vw;
-    margin: 2vh auto 0 auto;
+    margin: 12vh auto 0 auto;
     padding: 18px 10px 18px 10px;
     box-sizing: border-box;
     box-shadow: 0 2px 12px rgba(0,0,0,0.12);
@@ -95,7 +95,7 @@ body.welcome-page {
   .container {
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 6px;
     padding: 0.5rem;
     text-align: center;
   }
@@ -103,11 +103,11 @@ body.welcome-page {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
   }
   .flag-main img {
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
     margin: 0 auto;
     display: block;
   }
